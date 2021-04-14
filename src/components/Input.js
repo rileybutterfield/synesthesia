@@ -26,7 +26,7 @@ class Input extends React.Component {
     return (
       <form>
         <input
-        placeholder="Enter any word here"
+        placeholder="Enter any word here..."
         value={this.state.color}
         type="text"
         onChange={this.handleChange}
